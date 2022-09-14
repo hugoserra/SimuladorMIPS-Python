@@ -1,0 +1,14 @@
+Para iniciar o simulador, inicie o script python "InterfaceController" 
+com o comando "python InterfaceController.py" ou executando-o normalmente.
+
+python é uma linguagem interpretada, então para executar o script é necessario
+que o python3+ esteja instalado.
+
+O Simulador funcionará bem com os binarios presentes na pasta Testes.
+O Assembly exibido pelo simulador são os comentario feitos após a intrução no binario
+por exemplo:
+
+0000100100100101010100100 ddd $t0, $t0, $t0          --> coisa completamente inventada
+
+a instrução interpretada será a em binario, e a instrução exibida pelo simulador
+será "ddd $t0, $t0, $t0"
